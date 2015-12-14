@@ -1,0 +1,14 @@
+const gulp = require('gulp');
+const mocha = require('gulp-mocha');
+
+gulp.task('tests', () => {
+    return gulp.src('./tests/test.js', {read: false})
+        // gulp-mocha needs filepaths so you can't have any plugins before it
+        .pipe(mocha({reporter: 'nyan'}))
+        .once('error', () => {
+            process.exit(1);
+        })
+        .once('end', () => {
+            process.exit();
+        });;
+});
