@@ -6,6 +6,8 @@
 ## Run
 `npm tests`
 
+or 
+
 `gulp tests`
 
 
