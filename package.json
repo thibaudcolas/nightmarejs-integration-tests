@@ -12,7 +12,7 @@
     "gulp-mocha": "^2.2.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/gulp tests"
+    "tests": "./node_modules/.bin/gulp tests"
   },
   "repository": {
     "type": "git",
