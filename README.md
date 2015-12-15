@@ -5,12 +5,16 @@ Runs some UI tests on http://springload.co.nz using NightmareJS (http://www.nigh
 Needs mocha and chai to run.
 
 ## Install
-`npm install`
+
+```
+nvm install
+npm install
+```
 
 ## Run
 `npm test`
 
-or 
+or
 
 `gulp test`
 

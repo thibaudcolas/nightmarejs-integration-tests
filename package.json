@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Test examples using NightmareJS for Springload public website",
   "private": true,
+  "engines": {
+    "node": "4.2.2"
+  },
   "dependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
