@@ -4,8 +4,8 @@
 `npm install`
 
 ## Run
-`npm tests`
-`gulp tests`
+`npm test`
+`gulp test`
 
 
 

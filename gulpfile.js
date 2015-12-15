@@ -1,8 +1,8 @@
 var gulp = require("gulp");
 
-require("./gulp/tests");
+require("./gulp/test");
 
-gulp.task('build', ['tests'], function(done) {
+gulp.task('build', ['test'], function(done) {
     done();
 });
 
