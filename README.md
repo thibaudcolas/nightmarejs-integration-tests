@@ -12,12 +12,9 @@ npm install
 ```
 
 ## Run
-`npm test`
 
-or
-
-`gulp test`
-
-
+```
+npm test
+```
 
 Shared with love by http://springload.co.nz/

@@ -10,12 +10,10 @@
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
     "mocha-generators": "^1.2.0",
-    "nightmare": "^2.0.8",
-    "gulp": "^3.8.11",
-    "gulp-mocha": "^2.2.0"
+    "nightmare": "^2.0.8"
   },
   "scripts": {
-    "test": "./node_modules/.bin/gulp test"
+    "test": "mocha --reporter nyan tests/"
   },
   "repository": {
     "type": "git",
